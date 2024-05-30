@@ -1,0 +1,178 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c93241;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.navbar_logo ul {
+  list-style-type: none;
+  
+}
+
+.navbar_logo ul li {
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+
+.navbar-brand img {
+  width: 105px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  color: #FF6A4A;
+  font-weight: bolder;
+}
+
+.nav-item:hover{
+  background: white;
+  color: #c93241;
+}
+
+.navbar_logo button:hover {
+  background: #444;
+}
+
+.product {
+  background-color: #ffe4e0;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.product-info {
+  margin-top: 20px;
+}
+
+.btn-order {
+  background-color: #FF6A4A;
+  color: white;
+  font-family: 'Roboto, sans-serif';
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  max-width: 300px;
+  margin: 0 auto;
+  flex: 0 0 calc(100% / 3);
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+.city-name {
+  color: black;
+  background-color: #FF6A4A;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+map-img {
+    max-width: 50%;
+    max-height: 50%;
+    background-color: #FF6A4A;
+    border: 5px solid #FF6A4A;
+  border-radius: 10px;
+  }
+
+.contact-form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  style="background-color: #FF6A4A; margin: 0 auto; text-align: center;">
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+footer {
+  background-color: #c93241;
+  color: white;
+  display: flex;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.team {
+  background-color: #FF6A4A;
+  text-align: center;
+  padding: 20px;
+}
+
+.team img {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
